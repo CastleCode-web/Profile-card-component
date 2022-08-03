@@ -7,6 +7,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -600px -600px, 550px 300px ;
+    background-size: cover;
 }
 .wrapper{
     display: flex;
@@ -36,8 +40,9 @@ body{
     margin: 0 auto;
 }
 .profile_image{
-    clip-path: circle(50%);
+    border-radius: 50%;
     margin-top: -2.5em;
+    border: 4px solid white;
 }
 .child_container{
     display: flex;
