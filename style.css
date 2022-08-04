@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* How to fix the bg_pattern images */
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: -600px -600px, 550px 300px ;
